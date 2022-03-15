@@ -2,18 +2,18 @@ package com.ddjkj.ydh;
 
 import java.util.Scanner;
 
-    public class efsgnh {
+public class efsgnh {
 
-        public int func(int x , int y){
-            int z = x+y;
-            return z;
-        }
 
         public static void main(String[] args) {
 
+            add i = new add();
+            sub j = new sub();
+            mul k = new mul();
+            division l = new division();
+
             efsgnh obj = new efsgnh();
             int n1,n2;
-
             System.out.println("enter n1");
             Scanner num1 = new Scanner(System.in);
             int a = num1.nextInt();
@@ -23,8 +23,15 @@ import java.util.Scanner;
 
 
 
-            int c = obj.func(a,b);
-            System.out.println("result is : " + c);
+            int res1 = i.adder(a,b);
+            int res2 = j.subtract(a,b);
+            int res3 = k.multi(a,b);
+            int res4 = l.div(a,b);
+
+            System.out.println(res1);
+            System.out.println(res2);
+            System.out.println(res3);
+            System.out.println(res4);
         }
     }
 
