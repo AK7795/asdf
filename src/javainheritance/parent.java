@@ -1,4 +1,4 @@
-package com.ddjkj.ydh;
+package javainheritance;
 
 public class parent {
         public int adder(int x, int y) {
@@ -13,8 +13,8 @@ public class parent {
         int z = x*y;
         return z;
     }
-    public int div(int x, int y){
-        int z = x/y;
+    public float div(int x, int y){
+        float z = x/y;
         return  z;
     }
 }

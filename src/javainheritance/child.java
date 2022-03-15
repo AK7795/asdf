@@ -1,4 +1,4 @@
-package com.ddjkj.ydh;
+package javainheritance;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class child extends parent{
             child k = new child();
             child l = new child();
 
-            com.ddjkj.ydh.efsgnh obj = new com.ddjkj.ydh.efsgnh();
+            efsgnh obj = new efsgnh();
             int n1,n2;
             System.out.println("enter n1");
             Scanner num1 = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class child extends parent{
             int res1 = i.adder(a,b);
             int res2 = j.subtract(a,b);
             int res3 = k.multi(a,b);
-            int res4 = l.div(a,b);
+            float res4 = l.div(a,b);
 
             System.out.println(res1);
             System.out.println(res2);

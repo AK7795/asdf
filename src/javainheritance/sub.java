@@ -1,4 +1,4 @@
-package com.ddjkj.ydh;
+package javainheritance;
 
 public class sub {
 
@@ -7,3 +7,4 @@ public class sub {
         return z;
     }
 }
+
