@@ -26,7 +26,7 @@ public class efsgnh {
             int res1 = i.adder(a,b);
             int res2 = j.subtract(a,b);
             int res3 = k.multi(a,b);
-            float res4 = l.div(a,b);
+            double res4 = l.div(a,b);
 
             System.out.println(res1);
             System.out.println(res2);
